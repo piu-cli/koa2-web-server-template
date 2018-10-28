@@ -2,7 +2,7 @@ const mongoose = require('mongoose')
 const Schema = mongoose.Schema
 
 const DemoSchema = new Schema({
-  name: {
+  sex: {
     type: String
   }
 })
