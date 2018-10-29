@@ -6,7 +6,7 @@ const json = require('koa-json')
 const onerror = require('koa-onerror')
 const bodyparser = require('koa-bodyparser')
 
-const config = require('./config')
+const config = require('../config')
 const logUtil = require('./utils/logUtil')
 const { responseFormatter } = require('./middlewares')
 

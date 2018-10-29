@@ -1,6 +1,6 @@
 const log4js = require('log4js')
 
-log4js.configure(require('../config/logOtion'))
+log4js.configure(require('../../config/logOtion'))
 
 const logUtil = {}
 
